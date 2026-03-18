@@ -124,8 +124,8 @@ function ShareButton ({uriImage}) {
 // Like button
 function Like () {
       // let contadorLike = 0;
-      const [ contadorLike, setContadorLike] = useState(0)
-      
+      const [contadorLike, setContadorLike] = useState(0)
+
       const onPress = () => {
         // contadorLike = contadorLike + 1;
         setContadorLike(contadorLike + 1)
